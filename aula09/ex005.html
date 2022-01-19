@@ -19,9 +19,14 @@
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-    <div>Clique em mim</div>
+    <div id="msg">Clique em mim</div>
     <script>
-        window.document.write(window.navigator.appName)
+        var p1 = document.getElementsByTagName('p')[0]
+        document.write('Está escrito assim: ' + p1.innerText)
+        var p2 = document.getElementsByTagName('p')[1]
+        p2.style.color = 'yellow'
+        var div = document.getElementById('msg')
+        div.style.background = 'yellow'
     </script>
     
 </body>
