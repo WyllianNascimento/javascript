@@ -17,7 +17,10 @@
             var vel = document.querySelector('#vel')
             var resultado = document.querySelector('#resultado')
             var velocidade = Number(vel.value)
-            resultado.innerHTML = `Sua velocidade é de ${velocidade}`
+            resultado.innerHTML = `<p>Sua velocidade é de <strong>${velocidade}Km/h</strong></p>`
+            if (velocidade > 60) {
+                resultado.innerHTML +=`<p>Você está <strong>MULTADO</strong> por excesso de velocidade</p>`
+            }
         }
     </script>
     
