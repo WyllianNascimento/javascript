@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detran</title>
+    <title>DETRAN</title>
 </head>
 <body>
     <h1>Sistema de Multas</h1>
@@ -14,9 +14,12 @@
 
     <script>
         function verificar() {
-            var vel = document.querySelector('input#vel')
+            var vel = number(document.querySelector('input#vel'))
             if (vel > 60) {
-                
+                resultado.innerHTML(`Sua velocidade foi de ${vel}Km/h, você foi MULTADO por excesso de velocidade`)
+            }
+            else {
+                resultado.innerHTML(`Sua velocidade foi de ${vel}Km/h, Boa viagem !!!`)
             }
         }
     </script>
