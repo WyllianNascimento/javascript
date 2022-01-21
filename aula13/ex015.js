@@ -1,5 +1,5 @@
-var c = 0
-while (c <= 5) {
-    console.log('Boa tarde!!!')
+var c = 1
+while (c <= 7) {
+    console.log(`Passo ${c}`)
     c++
 }
