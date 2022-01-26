@@ -7,6 +7,9 @@ body {
 
 header{}
 
-section{}
+section{
+    background-color: white;
+    border-radius: 10px;
+}
 
 footer{}
