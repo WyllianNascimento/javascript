@@ -10,5 +10,10 @@ function carregar() {
     if (hora < 10) {
         hora = "0" + hora
     }
+    if (hora >= 0 && hora < 12) {
+        img.src = 'imagens/manha.jpg'
+    } else if (hora < 18) {
+        img.src = 'imagens/tarde.jpg'
+    }
     msg.innerHTML = `Agora são ${hora}:${minuto}`
 }
