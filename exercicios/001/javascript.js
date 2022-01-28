@@ -14,7 +14,7 @@ function carregar() {
         img.src = '001/imagens/manha.jpg'
     } else if (hora < 18) {
         img.src = '001/imagens/tarde.jpg'
-    } else if (hora >= 18) {
+    } else{
         img.src = '001/imagens/noite.jpg'
     }
     msg.innerHTML = `Agora são ${hora}:${minuto}`
