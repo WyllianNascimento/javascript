@@ -18,6 +18,7 @@ function carregar() {
         document.body.style.background = '#b9846f'
     } else{
         img.src = '001/imagens/noite.jpg'
+        document.body.style.background = '#191970'
     }
     msg.innerHTML = `Agora são ${hora}:${minuto}`
 }
