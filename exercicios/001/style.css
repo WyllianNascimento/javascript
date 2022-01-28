@@ -19,6 +19,10 @@ section{
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.425);
 }
 
+div {
+    text-align: center;
+}
+
 .imagem {
     border-radius: 50%;
     width: 250px;
@@ -28,4 +32,10 @@ section{
 footer {
     color: white;
     text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
