@@ -29,6 +29,19 @@ function verificar() {
             }
         } else if (fsex[1].checked) {
             genero = 'feminino'
+            if (idade >= 0 && idade <= 2) {
+                // Bebê
+            } else if (idade <= 10) {
+                // Criança
+            } else if (idade < 18) {
+                // Adolescente
+            } else if (idade <= 30) {
+                // Jovem
+            } else if (idade < 60) {
+                // Madura
+            } else {
+                // idosa
+            }
         }
         res.getElementsByClassName.textAlign = 'center'
         res.innerHTML = `Pessoa do sexo ${genero} com ${idade} anos de idade`
