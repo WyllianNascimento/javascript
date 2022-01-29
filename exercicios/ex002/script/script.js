@@ -19,29 +19,40 @@ function verificar() {
                 img.setAttribute('src', 'imagens/bb-menino.jpg')
             } else if (idade <= 10) {
                 // Criança
+                img.setAttribute('src', 'imagens/
             } else if (idade < 18) {
                 // Adolescente
+                img.setAttribute('src', 'imagens/
             } else if (idade <= 30) {
                 // Jovem
+                img.setAttribute('src', 'imagens/
             } else if (idade < 60) {
                 // Maduro
+                img.setAttribute('src', 'imagens/
             } else {
                 // idoso
+                img.setAttribute('src', 'imagens/
             }
         } else if (fsex[1].checked) {
             genero = 'feminino'
             if (idade >= 0 && idade <= 2) {
                 // Bebê
+                img.setAttribute('src', 'imagens/
             } else if (idade <= 10) {
                 // Criança
+                img.setAttribute('src', 'imagens/
             } else if (idade < 18) {
                 // Adolescente
+                img.setAttribute('src', 'imagens/
             } else if (idade <= 30) {
                 // Jovem
+                img.setAttribute('src', 'imagens/
             } else if (idade < 60) {
                 // Madura
+                img.setAttribute('src', 'imagens/
             } else {
                 // idosa
+                img.setAttribute('src', 'imagens/
             }
         }
         res.getElementsByClassName.textAlign = 'center'
