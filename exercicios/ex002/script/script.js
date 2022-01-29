@@ -16,7 +16,7 @@ function verificar() {
             genero = 'masculino'
             if (idade >= 0 && idade <= 2) {
                 // Bebê
-                img.setAttribute('src')
+                img.setAttribute('src', 'imagens/bb-menino.jpg')
             } else if (idade <= 10) {
                 // Criança
             } else if (idade < 18) {
@@ -46,5 +46,6 @@ function verificar() {
         }
         res.getElementsByClassName.textAlign = 'center'
         res.innerHTML = `Pessoa do sexo ${genero} com ${idade} anos de idade`
+        res.appendChild(img)
     }
 }
