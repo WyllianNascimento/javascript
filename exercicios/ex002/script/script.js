@@ -22,7 +22,7 @@ function verificar() {
                 img.setAttribute('src', 'imagens/menino.jpg')
             } else if (idade < 18) {
                 // Adolescente
-                img.setAttribute('src', 'imagens/menino-adolescetnte.jpg')
+                img.setAttribute('src', 'imagens/menino-adolescente.jpg')
             } else if (idade <= 30) {
                 // Jovem
                 img.setAttribute('src', 'imagens/homem-jovem.jpg')
@@ -46,7 +46,7 @@ function verificar() {
                 img.setAttribute('src', 'imagens/menina-adolescente.jpg')
             } else if (idade <= 30) {
                 // Jovem
-                img.setAttribute('src', 'imagens/mulher-jovem.jpg')
+                img.setAttribute('src', 'imagens/mulher-jovem.jpeg')
             } else if (idade < 60) {
                 // Madura
                 img.setAttribute('src', 'imagens/mulher-madura.jpg')
