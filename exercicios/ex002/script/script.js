@@ -11,10 +11,10 @@ function verificar() {
         var idade = ano - Number(fano.value)
         var genero = ''
         if (fsex[0].checked) {
-            genero = 'Masculino'
+            genero = 'masculino'
         } else if (fsex[1].checked) {
-            genero = 'Feminino'
+            genero = 'feminino'
         }
-        res.innerHTML = `Detectamos o gênero ${genero} e a idade ${idade}`
+        res.innerHTML = `Pessoa do sexo ${genero} com ${idade} anos de idade`
     }
 }
