@@ -10,11 +10,14 @@ function verificar() {
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
         var genero = ''
+        var img = document.createElement('img')
+        img.setAttribute('id', 'foto')
         if (fsex[0].checked) {
             genero = 'masculino'
         } else if (fsex[1].checked) {
             genero = 'feminino'
         }
+        res.getElementsByClassName.textAlign = 'center'
         res.innerHTML = `Pessoa do sexo ${genero} com ${idade} anos de idade`
     }
 }
