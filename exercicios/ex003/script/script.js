@@ -13,13 +13,12 @@ function contar() {
         let p = Number(passo.value)
         if(i < f) {
             for(let c = i; c <= f; c += p) {
-                res.innerHTML += `${c} \u{1f449}`
             }
         } else {
             for(let c = i; c >= f; c -= p) {
-                res.innerHTML += `${c} \u{1f449}`
             }
         }
+        res.innerHTML += `${c} \u{1f449}`
         res.innerHTML += `\u{1f3c1}`
     }
 }
