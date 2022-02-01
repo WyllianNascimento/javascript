@@ -10,6 +10,7 @@ function tabuada() {
         while (c <= 10) {
             let item = document.createElement('option')
             item.text = `${num} x ${c} = ${num*c}`
+            tab.appendChild(item)
         }
     }
 }
