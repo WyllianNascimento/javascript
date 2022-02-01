@@ -6,6 +6,10 @@ function tabuada() {
         alert('Por favor, digite um número!')
     } else {
         let n = Number(num.value)
-        for(;;)
+        let c = 1
+        while (c <= 10) {
+            let item = document.createElement('option')
+            item = 
+        }
     }
 }
