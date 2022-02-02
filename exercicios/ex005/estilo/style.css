@@ -28,6 +28,12 @@ div {
     width: 150px;
 }
 
+#botao {
+    color: white;
+    background-color: rgb(65, 155, 190);
+    border-radius: 10px;
+}
+
 footer {
     color: white;
     text-align: center;
