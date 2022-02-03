@@ -44,6 +44,7 @@ function finalizar() {
         let media = 0
         for(let pos in valores) {
             soma += valores[pos]
+            media += soma / valores.length
             if(valores[pos] > maior) {
                 maior = valores[pos]
             } else if(valores[pos] < menor) {
@@ -55,5 +56,6 @@ function finalizar() {
         res.innerHTML += `<p>Ao todo, temos ${total} números cadastrados.</p>`
         res.innerHTML += `<p>O maior valor encontrado foi ${maior}.</p>`
         res.innerHTML += `<p>O menor valor encontrado foi ${menor}.</p>`
+        res.innerHTML `<p>Somando tood os valores, temos ${soma}</p>`
     }
 }
