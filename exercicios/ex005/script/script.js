@@ -50,5 +50,7 @@ function finalizar() {
 
         res.innerHTML = ''
         res.innerHTML += `<p>Ao todo, temos ${total} números cadastrados.</p>`
+        res.innerHTML += `<p>O maior valor encontrado foi ${maior}.</p>`
+        res.innerHTML += `<p>O menor valor encontrado foi ${menor}.</p>`
     }
 }
