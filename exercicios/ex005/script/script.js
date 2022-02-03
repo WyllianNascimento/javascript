@@ -42,7 +42,9 @@ function finalizar() {
         let menor = valores[0]
         for(let pos in valores) {
             if(valores[pos] > maior) {
-                
+                maior = valores[pos]
+            } else if(valores[pos] < menor) {
+                menor = valores[pos]
             }
         }
 
