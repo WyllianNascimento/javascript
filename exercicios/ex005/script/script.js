@@ -41,7 +41,9 @@ function finalizar() {
         let maior = valores[0]
         let menor = valores[0]
         for(let pos in valores) {
-            
+            if(valores[pos] > maior) {
+                
+            }
         }
 
         res.innerHTML = ''
