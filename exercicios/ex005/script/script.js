@@ -38,6 +38,11 @@ function finalizar() {
         alert('Adicione valores antes de finalizar!')
     } else {
         let total = valores.length
+        let maior = valores[0]
+        let menor = valores[0]
+        for(let pos in valores) {
+            
+        }
 
         res.innerHTML = ''
         res.innerHTML += `<p>Ao todo, temos ${total} números cadastrados.</p>`
