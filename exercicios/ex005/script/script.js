@@ -40,6 +40,8 @@ function finalizar() {
         let total = valores.length
         let maior = valores[0]
         let menor = valores[0]
+        let soma = 0
+        let media = 0
         for(let pos in valores) {
             if(valores[pos] > maior) {
                 maior = valores[pos]
