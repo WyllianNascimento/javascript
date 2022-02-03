@@ -35,6 +35,12 @@ div {
     border-radius: 10px;
 }
 
+#botao:hover {
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+}
+
 footer {
     color: white;
     text-align: center;
